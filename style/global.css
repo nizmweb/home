@@ -1330,7 +1330,7 @@ html,body{
 
 
 #introText{
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   flex-direction: column;
   padding: 50px 30px;
@@ -1343,14 +1343,14 @@ position: relative;
 }
 
 #introText h1{
-  text-align: left;
-  font-size: 36px;
+  text-align: center;
+  font-size: 26px;
   line-height: 40px;
 }
 
 #introText p{
-  text-align: left;
-  font-size: 16px;
+  text-align: center;
+  font-size: 10px;
   
 }
 
@@ -1367,7 +1367,7 @@ position: relative;
 
 
 #services{
-  padding: 50px 30px;
+  padding: 50px 20px;
 }
 
 #services #head1{
@@ -1512,7 +1512,7 @@ transition: 0.8s;
 #projects{
   background-color: #000;
   text-align: center;
-  padding: 50px 30px;
+  padding: 50px 20px;
 }
 
 #projects #head1{
@@ -1687,7 +1687,7 @@ margin-top: 20px;
 
 #contact{
   text-align: center;
-  padding: 20px 30px;
+  padding: 20px 10px;
 }
 #contact #head1{
   font-weight: 800;
@@ -1808,10 +1808,12 @@ margin-top: 20px;
 #FAQ{
   
   padding-top: 40px ;
+  padding: 40px 20px;
 }
 #FAQ h1{
   font-size: 30px;
   line-height: 35px;
+  margin-bottom: 20px;
   text-align: center;
 }
 /* Style the buttons that are used to open and close the accordion panel */
