@@ -9,6 +9,21 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
+      <div id="preloader">
+        
+    <div class="loader-anim">
+      <div class="honeycomb">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+      </div>
         <section id="navBar">
          <img src="images/logo.png" alt="">
             <ul>
@@ -655,6 +670,12 @@ var dropMenu = document.getElementById('offMenu');
 dropMenu.style.display = 'none';
 menuBtn.style.display = 'block';
 }
+function loader(){
+  window.addEventListener("load",
+  setTimeout(()=>{ document.getElementById("preloader").style.display="none";},1000)
+)
+}
+loader();
 
     </script>
 </html>
