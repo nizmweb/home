@@ -1525,14 +1525,17 @@ transition: 0.8s;
 }
 #projects .workBox{
   display: flex;
-  text-align: left;
+  text-align: center;
   flex-direction: column;
   align-items: start;
   border: 1px solid #ffd200;
   padding: 20px;
   margin: 30px 0;
-  border-radius: 20px;
+  border-radius: 10px;
   flex-wrap: nowrap;
+}
+#projects .workBox h3{
+  font-size: 12px;
 }
 
 #projects h3{
@@ -1544,6 +1547,7 @@ transition: 0.8s;
 }
 #projects img{
   width: 100%;
+  margin: 15px 0;
   border-radius: 8px;
 }
 /* review */
