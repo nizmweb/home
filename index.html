@@ -25,7 +25,7 @@
 
       </div>
         <section id="navBar">
-         <img src="images/logo.png" alt="">
+         <img onclick="location.href='index.html'" src="images/logo.png" alt="">
             <ul>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -268,31 +268,40 @@
   <h1 id="head1">PROJECTS</h1>
   <h1 id="head2">Our Most Recent</h1>
   <div id="work">
-    <div  onclick="location.href='https://jimakes.wuaze.com/'" class="workBox">
-      <div class="sBox">
-        <h3>ECommerce Website Built for JIMAKES LIFESTYLE</h3>
-      </div>
-      <div class="sBox">
-        <img src="images/work3.png" alt="">
-      </div>
-      
-     
-    </div>
-    <div  onclick="location.href='https://bharattravels.wuaze.com/'" class="workBox">
+   
+    <div  onclick="location.href='http://www.thewoodfactory.net/'" class="workBox">
       <div class="sBox">
         <img src="images/work1.png" alt="">
       </div>
       <div class="sBox">
-        <h3>Car Rental Website for BHARAT TRAVELS</h3>
+        <h3>Ecommerce Website for THE WOOD</h3>
       </div>
       
     </div>
-    <div  onclick="location.href='http://skylinetravels.wuaze.com/?i=1'" class="workBox">
+    <div  onclick="location.href='https://www.cbdultra.co.uk/'" class="workBox">
+     
       <div class="sBox">
-        <h3>Car Renting Website Built for SKYLINE TRAVELS</h3>
+        <img src="images/work3.png" alt="">
       </div>
       <div class="sBox">
+        <h3>ECommerce Website Built for CBD Ultra</h3>
+      </div>
+     
+    </div>
+    <div  onclick="location.href='https://thephysicalstore.com/'" class="workBox">
+      
+      <div class="sBox">
         <img src="images/work2.png" alt="">
+      </div>
+      <div class="sBox">
+        <h3>Ecommerce Website Built for THE PHYSICAL STORE</h3>
+      </div>
+     
+    
+    </div>
+    <div style="height: 300px;display: flex;align-items: center;justify-content: center;" onclick="location.href='projects.html'" class="workBox">
+      <div class="sBox">
+        <h3>See More ></h3>
       </div>
      
     
@@ -672,7 +681,7 @@ menuBtn.style.display = 'block';
 }
 function loader(){
   window.addEventListener("load",
-  setTimeout(()=>{ document.getElementById("preloader").style.display="none";},1000)
+  setTimeout(()=>{ document.getElementById("preloader").style.display="none";},2000)
 )
 }
 loader();
