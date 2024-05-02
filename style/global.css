@@ -21,10 +21,10 @@ button.normal{
     background: transparent;
     border-radius: 50px;
     outline: none;
-    color: #fff;
+    color: #000;
   
     border: 1px solid #141411;
-    background: url(../images/bg-smoke.jpg);
+    background-color: #ffd200;
     transition: 0.2s;
     cursor: pointer; 
     transition: 0.2s;
@@ -46,12 +46,13 @@ button{
     font-size: 14px;
     font-weight: 600;
     padding: 15px 30px;
-    color: #fff;
+    color: #000;
   
     border: none;
-    background: url(../images/bg2.jpg);
-    background-position: top;
-    transition: 0.3s;
+    background: linear-gradient(-45deg, #ff6200,#eeb252,  #ffd200, #ffe600);
+    animation: btn-color 10s ease infinite;
+    background-size: 400% 400%;
+    
 /* #18e3dd
 #3088f3 */
     border-radius: 50px;
@@ -61,10 +62,10 @@ button{
 }
 
 button:hover{ 
+  background-color: #ffd200;
+  color: #050801;
+  box-shadow: 0px 0px 5px #ffe46a, 0px 0px 25px #ffe46a, 0px 0px 30px #ffe46a, 0px 0px 80px #ffe46a;
 
-  
-  background: url(../images/bg2.jpg);
-  background-position: center;
 }
 h1 {
     user-select: none;
@@ -114,7 +115,6 @@ h1 {
   body {
     overflow-x: hidden;
     z-index: -2;
-    background: #000;
   }
 
   .gradient-text {
@@ -181,23 +181,23 @@ transform: translateY(0px);
   }
   #navBar.sticky{
     padding: 10px 80px;
-    background: url(../images/bg2.jpg);
-    background-position: bottom;
+    background-color: #ffd200;
+    background-position: center;
   }
 
 
   #navBar.sticky button.normal{
-    color: #fff;
+    color: #000;
   
     border: 1px solid #fff;
 }
 #navBar.sticky button.normal:hover{
  
   background: transparent;
-  color: #fff;
+  color: #000;
 
   border: 1px solid #fff;
-  background-color: #0a64bc;
+  background-color: #ffd200;
 }
 
 
@@ -225,22 +225,22 @@ transform: translateY(0px);
     transition: 0.2s ;
   }
   #navBar.sticky a{
-    color: #fff;
+    color: #000;
   }
   #navBar.sticky a:hover{
-    color: #fff;
+    color: #979797;
   }
   #navBar a:hover{
-    color: #0a64bc;
+    color: #ffd200;
   }
   #navBar.sticky button.normal{
 
     border: 1px solid #000;
-   color: #fff;
+   color: #000;
   }
-  #navBar.sticky button:hover{
+  #navBar.sticky button.normal:hover{
     color: #fff;
-    border: 1px solid #00000000;
+    border: 1px solid #ffffff;
 
   }
 
@@ -264,6 +264,10 @@ transform: translateY(0px);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+    background: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    animation: btn-color 30s ease infinite;
     
   }
   #intro2{
@@ -286,7 +290,7 @@ transform: translateY(0px);
     text-align: left;
   }
   .introBox #wd{
-    color: #0a64bc;
+    color: #ffd200;
   }
   .introBox p,
   .introBox p strong{
@@ -400,7 +404,7 @@ position: absolute;
   margin-bottom: 150px;
   font-size: 60px;
   z-index: 5;
-  color: #0a64bc;
+  color: #ffd200;
 }
 #services h1{
   text-align: center;
@@ -413,7 +417,7 @@ position: absolute;
   flex-wrap: wrap;
   padding: 80px 40px;
   border-radius: 20px;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
  position: relative;
  align-items: center;
 
@@ -475,12 +479,12 @@ margin-left: 10px;
 #whyus{
   width: 100%;
   padding: 20px 80px 120px 80px;
-  color: #0a64bc;
+  color: #ffd200;
   background-color:#000;
   text-align: center;
 }
 #whyus h1{
-  color: #0a64bc;
+  color: #ffd200;
 }
 
 
@@ -498,7 +502,7 @@ margin-left: 10px;
   justify-content: space-between;
 }
 #features .box{
-border: 1px solid #0a64bc;
+border: 1px solid #ffd200;
 border-radius: 10px;
 width: 33%;
 padding: 60px 30px;
@@ -520,11 +524,11 @@ transition: 0.3s;
 }
 #features .box:hover{
   box-shadow: 1px 2px;
-  background-color: #0a64bc;
+  background-color: #ffd200;
 }
 
 #features .svgBox{
-  background-color: #0a64bc;
+  background-color: #ffd200;
   background-position: left;
   border-radius: 10px;
   padding: 10px;
@@ -549,25 +553,25 @@ transition: 0.3s;
 
 #features .box:hover .svgBox{
   background-color: #000;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
 }
 
 #features .box:hover svg{
-  fill: #0a64bc;
+  fill: #ffd200;
 }
   /*   box 2*/
 
 
   
 #features .box2{
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   border-radius: 10px;
   width: 33%;
   padding: 60px 30px;
   box-shadow: 3px 5px;
   margin: 20px 15px;
   transition: 0.3s;
-  background-color: #0a64bc;
+  background-color: #ffd200;
   }
   #features .box2 h5{
     margin: 10px 0;
@@ -598,12 +602,12 @@ transition: 0.3s;
     align-items: center;
     justify-content: center;
     display: flex;
-    border: 1px solid #0a64bc;
+    border: 1px solid #ffd200;
     transition: 0.3s;
   }
   
   #features  .svg2{
-    fill: #0a64bc;
+    fill: #ffd200;
     
   }
   #features .box2:hover p,
@@ -612,7 +616,7 @@ transition: 0.3s;
   }
   
   #features .box2:hover .svgBox2{
-    background-color: #0a64bc;
+    background-color: #ffd200;
   }
   
   #features .box2:hover svg{
@@ -643,13 +647,13 @@ transition: 0.3s;
   margin-bottom: 150px;
   font-size: 60px;
   z-index: 5;
-  color: #0a64bc;
+  color: #ffd200;
 }
 #projects .workBox{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   padding: 20px;
   margin: 30px 0;
   border-radius: 20px;
@@ -657,7 +661,7 @@ transition: 0.3s;
 }
 
 #projects h3{
-  color: #0a64bc;
+  color: #ffd200;
 }
 #projects .sBox{
   width: 80%;
@@ -693,7 +697,7 @@ transition: 0.3s;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   border-radius: 15px;
   margin: 0 10px;
   padding: 25px 20px;
@@ -729,7 +733,7 @@ transition: 0.3s;
 
 #payment h2{
 margin: 60px 0;
-color: #0a64bc;
+color: #ffd200;
 margin: 100px 0 50px 0;
 }
 #payment .row{
@@ -740,7 +744,7 @@ margin: 100px 0 50px 0;
 }
 #payment .pay{
 
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   border-radius: 10px;
   width: 33%;
   padding: 60px 30px 20px 30px;
@@ -757,7 +761,7 @@ margin: 100px 0 50px 0;
   color: #fff;
 }
 #payment h3{
-  background: #0a64bc;
+  background: #ffd200;
   color: #000;
   border-radius: 5px;
   font-weight: 400;
@@ -780,7 +784,7 @@ margin: 100px 0 50px 0;
 }
 
 #payment .pay:hover{
-  background-color: #0a64bc;
+  background-color: #ffd200;
   color: #000;
   background-position: left;
   box-shadow: 4px 6px  #000;
@@ -794,11 +798,11 @@ margin: 100px 0 50px 0;
 }
 #payment .pay:hover h3{
   background: #000;
-  color: #0a64bc;
+  color: #ffd200;
 }
 #payment .pay:hover button{
   background-color: #000;
-  color: #0a64bc;
+  color: #ffd200;
 }
 
 /* details */
@@ -809,7 +813,7 @@ margin: 100px 0 50px 0;
 }
 #details .con{
   width: 100%;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   border-radius: 10px;
   padding: 60px 30px 20px 30px;
   box-shadow: 3px 5px;
@@ -844,7 +848,7 @@ margin-top: 20px;
   justify-content: center;
 }
 #details p{
-  background-color: #0a64bc;
+  background-color: #ffd200;
   padding: 8px 0;
   color: #141414;
   font-weight: 600;
@@ -875,7 +879,7 @@ margin-top: 20px;
   font-weight: 600;
   margin-bottom: 150px;
   font-size: 60px;
-  color: #0a64bc;
+  color: #ffd200;
 }
 
 #contact form{
@@ -886,7 +890,7 @@ margin-top: 20px;
 }
 
 #contact form label{
-  color: #0a64bc;
+  color: #ffd200;
   font-size: 16px;
   font-weight: 600;
 }
@@ -895,7 +899,7 @@ margin-top: 20px;
   width: 100%;
   padding: 18px;
   background: transparent;
-  border: 2px solid #0a64bc;
+  border: 2px solid #ffd200;
   outline: none;
   border-radius: 6px;
   font-size: 16px;
@@ -914,7 +918,7 @@ margin-top: 20px;
 }
 .container{
   text-align: center;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   border-radius: 20px;
   padding: 50px 50px;
   display: flex;
@@ -922,19 +926,19 @@ margin-top: 20px;
   align-items: center;
 }
 .container h4{
-  color: #0a64bc;
+  color: #ffd200;
   font-size: 16px;
   margin: 20px 0;
   border-radius: 10px;
   padding: 12px;
   display: inline;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
 }
 
 .more-info{
   margin-top: 20px;
   text-align: center;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   border-radius: 20px;
   padding: 50px 50px;
   display: flex;
@@ -943,17 +947,17 @@ margin-top: 20px;
 
 }
 .more-info h4{
-  color: #0a64bc;
+  color: #ffd200;
   font-size: 16px;
   margin: 20px 0;
   border-radius: 10px;
   padding: 12px;
   display: inline;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
 
 }
 .more-info h3{
-  color: #0a64bc;
+  color: #ffd200;
   font-size: 26px;
   margin: 20px 0;
   padding: 12px;
@@ -990,7 +994,7 @@ margin-top: 20px;
   padding-top: 40px ;
 }
 #FAQ h1{
-  color: #0a64bc;
+  color: #ffd200;
   text-align: center;
 }
 /* Style the buttons that are used to open and close the accordion panel */
@@ -1008,14 +1012,14 @@ margin-top: 20px;
 }
 .accordion {
   border-radius: 0;
-  border-bottom: 0.5px solid #0a64bc;
+  border-bottom: 0.5px solid #ffd200;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color:#000;
   box-shadow: 0 0 1px;
-  color: #0a64bc;
+  color: #ffd200;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -1033,7 +1037,7 @@ margin-top: 20px;
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
   font-size: 13px;
-  color: #0a64bc;
+  color: #ffd200;
   float: right;
   margin-left: 5px;
 }
@@ -1067,7 +1071,7 @@ footer .sec{
   width: 30%;
 }
 footer .sec h3{
-  color: #0a64bc;
+  color: #ffd200;
 }
 footer .sec p{
   font-weight: 600;
@@ -1157,7 +1161,7 @@ footer .copy h5{
 .honeycomb div {
   -webkit-animation: honeycomb 2.1s infinite backwards;
   animation: honeycomb 2.1s infinite backwards;
-  background: #0a64bc;
+  background: #ffd200;
   height: 12px;
   margin-top: 6px;
   position: absolute;
@@ -1180,7 +1184,7 @@ footer .copy h5{
 
 .honeycomb div:before {
   bottom: -6px;
-  border-top: 6px solid #0a64bc;
+  border-top: 6px solid #ffd200;
 }
 
 .honeycomb div:nth-child(1) {
@@ -1257,7 +1261,7 @@ html,body{
 
   #navBar.sticky{
     padding: 8px 30px;
-    background: #0a64bc;
+    background: #ffd200;
   }
   
  #offMenu{
@@ -1530,7 +1534,7 @@ transition: 0.8s;
   text-align: center;
   flex-direction: column;
   align-items: start;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   padding: 20px;
   margin: 30px 0;
   border-radius: 10px;
@@ -1541,7 +1545,7 @@ transition: 0.8s;
 }
 
 #projects h3{
-  color: #0a64bc;
+  color: #ffd200;
   margin: 30px 0;
 }
 #projects .sBox{
@@ -1575,7 +1579,7 @@ transition: 0.8s;
 
 #review .sec{
   width: 100%;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   border-radius: 15px;
   margin: 20px 10px;
   padding: 25px 20px;
@@ -1739,7 +1743,7 @@ margin-top: 20px;
 
 
 #contact form label{
-  color: #0a64bc;
+  color: #ffd200;
   font-size: 12px;
   text-align: left;
   font-weight: 600;
@@ -1749,7 +1753,7 @@ margin-top: 20px;
   width: 100%;
   padding: 18px;
   background: transparent;
-  border: 2px solid #0a64bc;
+  border: 2px solid #ffd200;
   outline: none;
   border-radius: 6px;
   font-size: 14px;
@@ -1768,7 +1772,7 @@ margin-top: 20px;
 }
 .container{
   text-align: center;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   border-radius: 20px;
   padding: 50px 20px;
   display: flex;
@@ -1779,7 +1783,7 @@ margin-top: 20px;
 .more-info{
   margin-top: 20px;
   text-align: center;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
   border-radius: 20px;
   padding: 50px 50px;
   display: flex;
@@ -1788,17 +1792,17 @@ margin-top: 20px;
 
 }
 .more-info h4{
-  color: #0a64bc;
+  color: #ffd200;
   font-size: 14px;
   margin: 20px 0;
   border-radius: 10px;
   padding: 8px;
   display: inline;
-  border: 1px solid #0a64bc;
+  border: 1px solid #ffd200;
 
 }
 .more-info h3{
-  color: #0a64bc;
+  color: #ffd200;
   font-size: 20px;
   margin: 20px 0;
   padding: 12px;
@@ -1915,14 +1919,26 @@ font-size: 10px;
 
 /* Animations */
 
-@keyframes btn_color{
-  0%{
+@keyframes btn-color{
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
-  }
-  50%{
-
-  }
-  100%{
-
-  }
+@keyframes bg-intro{
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
